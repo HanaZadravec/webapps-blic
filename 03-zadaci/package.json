@@ -1,0 +1,30 @@
+{
+  "name": "03-zadaci",
+  "version": "1.0.0",
+  "description": "blic 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev" : "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanaZadravec/webapps-blic.git"
+  },
+  "author": "Hana Zadravec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HanaZadravec/webapps-blic/issues"
+  },
+  "homepage": "https://github.com/HanaZadravec/webapps-blic#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "type": "module"
+}
